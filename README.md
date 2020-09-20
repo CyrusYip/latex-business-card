@@ -16,6 +16,15 @@ This document happens to use Minion Pro, which is pretty but needs to be set up 
 
 The easiest way to make this work for the typical user would be simply to swap out Minion Pro for another typeface. Learn about easy-to-use LaTeX typefaces [here](https://tug.org/FontCatalogue/).
 
+## Chinese support
+
+![](example-cn.png)
+
+The easiest way to input Chinese is to begin with `business-card-horizontal-cn.tex`. You can input Chinese in the document without modifying it, you must use XeLaTeX to compile it.
+
+The another way to input Chinese is to begin with `business-card-horizontal.tex`. Change 'pdflatex' in line 1 into 'xelatex' and use XeLaTeX to compile it.
+
+Notice: The serif font of Chinese example looks different from original version, because the Chinese example was compiled with default serif font instead of Minion Pro(the contributor to Chinese template have no Minion Pro on his computer).
 
 # Other Business Card Templates
 
