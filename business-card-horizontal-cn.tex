@@ -1,4 +1,4 @@
-% !TEX TS-program = pdflatex
+% !TEX TS-program = xelatex
 
 % You could use xelatex for easier font customization,
 %   but it requires more intervention to make FontAwesome work.
@@ -7,11 +7,11 @@
 
 \documentclass[10pt, oneside, final]{article}
 
-% Chinese support(Change 'pdflatex' in line 1 into 'xelatex' and use XeLaTeX to compile.)
-% \usepackage{xeCJK}
-% \setCJKmainfont{SimSun}
-% \setCJKsansfont{SimHei}
-% \setCJKmonofont{FangSong}
+% Chinese support
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\setCJKsansfont{SimHei}
+\setCJKmonofont{FangSong}
 
 % \usepackage{tikz}
 \usepackage{parskip}           % remove paragraph indents
@@ -52,12 +52,12 @@
   \includegraphics[width = 0.3\textwidth]{img/circular-telles.png}
   \end{wrapfigure}
 
-  \underline{\large\textsf{\textbf{Michael DeCrescenzo}}}
+  \underline{\large\textsf{\textbf{迈克尔 $\cdot$ 狄克莱森佐}}}
 
-  {Ph.D.\ Candidate} \\
-  {University of Wisconsin{\textendash}Madison}
+  {博士候选人} \\
+  {威斯康星大学麦迪逊分校}
 
-  \emph{Bayesian analysis of U.S.\ elections, \\ public opinion, and voting}
+  \emph{美国大选、舆论与投票的贝叶斯分析}
 
   \vfill 
   {\faEnvelope} \texttt{decrescenzo@wisc.edu} \hfill 
